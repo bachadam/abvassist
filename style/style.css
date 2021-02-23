@@ -5,7 +5,12 @@
 body {
     margin: 0;
     padding: 0;
-    /* background-color: lightblue; */
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    background-color: pink;
     /* background-image: radial-gradient(orange, pink); */
 
 }
