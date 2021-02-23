@@ -43,6 +43,8 @@ function currAbvInputEvent( v ) {
             displayDilution();
 
             console.log( "dilution factor:: " + dilution );
+
+            transferVolInputEvent( transferVol );
         }
 
     }
@@ -59,6 +61,8 @@ function targetAbvInputEvent( v ) {
 
             dilution = getDilutionFactor( currentAbv, targetAbv );
             displayDilution();
+
+            transferVolInputEvent( transferVol );
 
         }
     }
